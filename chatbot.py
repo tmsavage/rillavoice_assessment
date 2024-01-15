@@ -52,7 +52,7 @@ def get_data_from_neo4j(cypher_query):
             auth=basic_auth(os.environ['NEO4J_USERNAME'], os.environ['NEO4J_PASSWORD']))
 
         with driver.session(database="neo4j") as session:
-            results = session.read_transaction(lambda tx: tx.run(cypher_query).data())
+            results = session.execute_read(lambda tx: tx.run(cypher_query).data())
         
         driver.close()
         return results
