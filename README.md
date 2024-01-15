@@ -25,7 +25,7 @@ Once completed, run the following command to download the required dependencies:
 ## Run the script
 To run the script, all you need to do is open your terminal, navigate to the repository directory, and run `python3 chatbot.py`.
 
-## Testing the Chatbot
+## Testing the chatbot
 The chatbot is capable of answering direct questions regarding the Neo4j and capable of referring to previous questions or answers within the conversation. Some example questions include:
 
 `How many movies has Tom Hanks acted in?`<br>
@@ -39,5 +39,8 @@ The chatbot is also capable of noticing whether a question is off-topic from mov
 
 `What is your favorite color?`.
 
-# Contact
+## Stop the program
+To stop the chatbot, simply type `stop` when it is your turn to interact. Otherwise, use `control + c` (for MAC).
+
+## Contact
 If you run into issues running this code, please feel free to email me at `tobymsavage@gmail.com`.
