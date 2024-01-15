@@ -13,10 +13,10 @@ Unless you have already have these dependencies installed, you will need to inst
 ## Setting pu the Environment
 Update the `.env` file in the root directory of the project. Add the necessary environment variables as follows:
 ```
-OPENAI_API_KEY=your_openai_api_key_here
-NEO4J_BOLT_URL=bolt://your_neo4j_url_here
-NEO4J_USERNAME=your_neo4j_username_here
-NEO4J_PASSWORD=your_neo4j_password_here
+OPENAI_API_KEY="<your-openai-api-key-here>"
+NEO4J_BOLT_URL="<your-bolt-url-here>"
+NEO4J_USERNAME="<your-neo4j-username-here>"
+NEO4J_PASSWORD="<your-neo4j-password-here>"
 ```
 
 Once completed, run the following command to download the required dependencies:
@@ -28,12 +28,12 @@ To run the script, all you need to do is open your terminal, navigate to the rep
 ## Testing the Chatbot
 The chatbot is capable of answering direct questions regarding the Neo4j and capable of referring to previous questions or answers within the conversation. Some example questions include:
 
-`How many movies has Tom Hanks acted in?`
-`What are the names of those movies?`
-`Who directed Cloud Atlas?`
-`What movie did Tom Hanks direct?`
-`Find me the shortest path etween Kevin Bacon and Meg Ryan`
-`Did Meg Ryan direct any films?`.
+`How many movies has Tom Hanks acted in?`<br>
+`What are the names of those movies?`<br>
+`Who directed Cloud Atlas?`<br>
+`What movie did Tom Hanks direct?`<br>
+`Find me the shortest path etween Kevin Bacon and Meg Ryan`<br>
+`Did Meg Ryan direct any films?`.<br>
 
 The chatbot is also capable of noticing whether a question is off-topic from movies, and thus will refuse to answer. An example question to ask is:
 
