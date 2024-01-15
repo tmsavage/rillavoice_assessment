@@ -10,7 +10,7 @@ Unless you have already have these dependencies installed, you will need to inst
 - Neo4j
 - python-dotenv
 
-## Setting pu the Environment
+## Setting up the Environment
 Update the `.env` file in the root directory of the project. Add the necessary environment variables as follows:
 ```
 OPENAI_API_KEY="<your-openai-api-key-here>"
